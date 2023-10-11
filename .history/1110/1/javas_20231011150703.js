@@ -23,5 +23,5 @@ function kiemtrachanLe(){
     var x= numberInput.value;
     if(x%2==0)
     document.write(x+" la so chan");
-    else document.writeln(x+ " la so le")
+    else print(x+ " la so le")
 }

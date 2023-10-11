@@ -20,8 +20,8 @@ function vd4() {
     document.write("The result is: " + r);
 }
 function kiemtrachanLe(){
-    var x= numberInput.value;
+    var x= value.value;
     if(x%2==0)
     document.write(x+" la so chan");
-    else document.writeln(x+ " la so le")
+    else document.write(x+ " la so le")
 }
