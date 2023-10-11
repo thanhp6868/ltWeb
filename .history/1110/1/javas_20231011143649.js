@@ -8,8 +8,3 @@ function vd2() {
     document.write(i++);
     document.write(++i);
 }
-function vd3() {
-    var x = 11;
-    var y = 5
-    document.write(x | y);
-}
