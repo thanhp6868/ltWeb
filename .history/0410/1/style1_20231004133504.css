@@ -1,0 +1,6 @@
+#vidu_transition{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    transition: 5s;
+}

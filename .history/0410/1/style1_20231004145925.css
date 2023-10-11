@@ -1,0 +1,18 @@
+body{
+   
+}
+
+#vidu_transition{
+    font-size: 20px;
+    border-radius: 20px;
+    border: 0.5px solid #999999;
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+    transition: 0.5s;
+}
+#vidu_transition:hover{
+        height: 500px;
+        width: 500px;
+        background-color: yellow;
+}

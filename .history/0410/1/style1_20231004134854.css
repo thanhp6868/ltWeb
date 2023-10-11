@@ -1,0 +1,11 @@
+#vidu_transition{
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+    transition: 0.5s;
+    
+}
+#vidu_transition:hover{
+        height: 200px;
+        width: 200px;
+}
