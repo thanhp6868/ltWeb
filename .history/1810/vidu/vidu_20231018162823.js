@@ -67,7 +67,7 @@ function bai2() {
     var hour = time.getHours()
     var min = time.getMinutes()
     var sec = time.getSeconds()
-    document.getElementById("result_2").innerHTML = "today: " + today + "<br>" + "month: " + month + "<br>" + "year: " + year + "<br>" + "time:" + time.toLocaleTimeString();
+    document.getElementById("result_2").innerHTML = "today: " + today + "<br>" + "month: " + month + "<br>" + "year: " + year + "<br>" + "time:" + hour + ":" + min + ":" + sec;
 }
 
 function bai3(){
@@ -87,5 +87,5 @@ function bai5(){
         str1 ="chao buoi sang";
     else str1="chao buoi chieu";
 
-    document.getElementById("result_5").innerHTML = str1 +". bay gio la: "+ time.toLocaleTimeString();
+    document.getElementById("result_5").innerHTML = str1 +". bay gio la: "+ hour+" gio";
 }

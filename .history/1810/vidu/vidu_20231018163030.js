@@ -67,7 +67,7 @@ function bai2() {
     var hour = time.getHours()
     var min = time.getMinutes()
     var sec = time.getSeconds()
-    document.getElementById("result_2").innerHTML = "today: " + today + "<br>" + "month: " + month + "<br>" + "year: " + year + "<br>" + "time:" + time.toLocaleTimeString();
+    document.getElementById("result_2").innerHTML = "today: " + today + "<br>" + "month: " + month + "<br>" + "year: " + year + "<br>" + "time:" + hour + ":" + min + ":" + sec;
 }
 
 function bai3(){
